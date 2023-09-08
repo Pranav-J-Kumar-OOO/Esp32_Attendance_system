@@ -1,0 +1,35 @@
+body {
+    background-color: #7ed957;
+    font-family: sans-serif;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+    color: azure;
+    justify-content: center;
+}
+
+div{
+    padding-top: 10px;
+}
+
+input{
+    border-radius: 10px;
+    border: navy;
+    padding: 2px 2px 2px 2px;
+}
+
+input::placeholder{
+    padding: 10px 10px 10px 10px;
+}
+
+.btn {
+    padding: 10px 10px 10px 10px;
+    border: 3px solid azure;
+    transition: all ease 0.5s;
+}
+
+.btn:hover{
+    border: 3px solid azure;
+    background: #7ed957 ;
+    color: azure;
+}

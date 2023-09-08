@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="fields">
+        <div class="a">
+            <input id="key" type="text" placeholder="Device KEY">
+        </div>
+
+        <div class="b">
+            <input id="cam" type="text" placeholder="Camera URL"> 
+        </div>
+
+        <div class="c">
+            <input id="gsp" type="text" placeholder="Google Spread NAME">
+        </div> 
+
+        <br>
+
+        <div class="s">Enter 0 or your webcam id in camera url for using the webcam</div>
+        <div class="wtr">A new tab will open after submitting, close the tab after it closes.</div> 
+
+        <br><br>
+        
+        <input onclick="auth()" class="btn" value="Submit" type="button"></input>
+    </div>
+</body>
+</html>
